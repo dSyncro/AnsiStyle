@@ -12,7 +12,7 @@ This library is standalone therefore you won't need to install any external depe
 
 ## Authors
 
-* **Domenico Mancini** - [nrgger](https://github.com/nrgger)
+* **Domenico Mancini** - [dSyncro](https://github.com/dSyncro)
 
 ## Contributing
 
