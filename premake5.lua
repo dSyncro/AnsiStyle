@@ -1,4 +1,4 @@
-include "./third-party/premake/customization/solution_items.lua"
+include "./third-party/Premaker/customization/solution_items.lua"
 
 workspace "AnsiStyle"
 
@@ -25,4 +25,5 @@ workspace "AnsiStyle"
 
 	outputdir = "%{cfg.architecture}/%{cfg.system}/%{cfg.buildcfg}"
 
+include "third-party/Premaker"
 include "project"

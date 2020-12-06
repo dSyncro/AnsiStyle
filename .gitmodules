@@ -1,0 +1,3 @@
+[submodule "third-party/Premaker"]
+	path = third-party/Premaker
+	url = https://github.com/dSyncro/Premaker
