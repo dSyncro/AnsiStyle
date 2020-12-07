@@ -2,15 +2,7 @@ include "./third-party/Premaker/customization/solution_items.lua"
 
 workspace "AnsiStyle"
 
-	architecture "x86_64"
 	startproject "AnsiStyle"
-
-	configurations
-	{
-		"Debug",
-		"Release",
-		"Dist"
-	}
 
 	solution_items 
 	{
@@ -25,8 +17,7 @@ workspace "AnsiStyle"
 
 	outputdir = "%{cfg.architecture}/%{cfg.system}/%{cfg.buildcfg}"
 
-group "Build"
-	include "third-party/Premaker"
+	include "./third-party/Premaker/configurations.lua"
 
-group ""
-	include "project"
+include "third-party/Premaker"
+include "project"
