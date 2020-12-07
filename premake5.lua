@@ -25,5 +25,8 @@ workspace "AnsiStyle"
 
 	outputdir = "%{cfg.architecture}/%{cfg.system}/%{cfg.buildcfg}"
 
-include "third-party/Premaker"
-include "project"
+group "Build"
+	include "third-party/Premaker"
+
+group ""
+	include "project"
